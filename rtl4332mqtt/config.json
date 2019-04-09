@@ -6,6 +6,9 @@
   "url": "https://github.com/jmtatsch/hassio-addons/tree/master/rtl4332mqtt",
   "startup": "before",
   "boot": "auto",
+  "arch": [
+    "amd64"
+  ],
   "map": ["config:rw", "ssl"],
   "devices": ["/dev/bus/usb:/dev/bus/usb:rwm"],
   "host_network": "False",
